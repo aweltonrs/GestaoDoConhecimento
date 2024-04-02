@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body{
+	background-color: white;
+	color: rgba(0,0,0,1);
+}
+
+/*Formatação do Menu */
+#navbar ul{
+	list-style: none;
+	background-color: #aadd99;
+	text-transform: uppercase;
+	padding: 9px;
+	text-decoration: none;
+	display: block;
+}
+#navbar ul li{
+	display: inline-block;
+	background-color: yellow;
+	padding: 6px;
+	text-decoration: none;
+}
+#navbar li ul{
+	position: relative;
+	background-color: yellow;
+	display: none;
+}
+#navbar ul li:hover ul{
+	display: block;
+	background-color: #aadd99;
+	
+}
+
+#icon{
+ float: right;
+ margin-top: -8px;
+ display: block;
+}
+
+p{
+	text-align: justify;
+	text-indent: 60px;
+}	
+
+/*Tabelas*/
+table{
+	border: 1px solid red;
+	background-color: #102030;
+}
+
+table tr{
+	background-color: white;
+	
+}	
+
+/*Formulários*/
+.escondido {
+	display: none;
+}
+
+.formulario fieldset{
+	display: block;
+	align-items: center;
+	width: 1000px;
+	float: left;
+	justify-content: center;
+	padding: 20px;
+}
+
+input,span,label{
+	margin: 10px;
+}
+/*Relógios e cronômetros*/
+.clock {
+	text-align: center;
+	font-family: Arial, sans-serif;
+ 	display: flex;
+ 	justify-content: right;
+ 	align-items: center;
+ 	height: 20vh;
+ 	margin: 0;
+  }
+  
+  .time {
+	font-size: 2em;
+	margin: 0;
+  }
+
+
+
+	

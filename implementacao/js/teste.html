@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"\>
+			<link rel="stylesheet" type="text/css" href="css/inicio.css"/>
+			<title></title>
+		</head>
+		<body>
+			<script>
+				function mudaFoto(){
+					document.getElementById('icone').src='../imagens/icone01.jpg';
+				}
+				function mudaFoto01(){
+					document.getElementById('icone').src='../imagens/icone02.jpg';
+				}
+				function mudaFoto02(){
+					document.getElementById('icone').src='../imagens/icone.jpg';
+				}	
+			
+			</script>
+				<img src="../imagens/icone.jpg" id="icone" onclick="mudaFoto01()" onmousemove="mudaFoto02()" onmouseout="mudaFoto()"/>
+		</body>
+	</html>	
+			

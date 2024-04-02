@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#stopwatch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(100deg, #c56c06, #000);
+
+}
+
+.secao{
+    background-color: #19f82b;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #19f82b;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    height: 250px;
+    width: 250px;
+    border: 2.5px solid black;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+    padding: 4rem;
+}
+
+#actions{
+    display: flex;
+    gap: 0.5rem;
+}
+
+#actions button{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    color: #19f82b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+#reset{
+    background: linear-gradient(100deg, #ec7e16, #c56c06);
+}
+#power{
+    background: linear-gradient(100deg, #c56c06, #b66202);
+}
+#mark{
+    background: linear-gradient(100deg, #b66202, rgb(116, 51, 7));
+}
+
+#actions button:hover{
+    background-color: red;
+}
+
+#marks-list{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;    
+    color: black;
+    font-weight: bold;
+}
+
+#marks-list p:first-child{
+    margin-top: 1.5rem;
+}
